@@ -1,0 +1,1 @@
+celery -A qr_backend.celery --pool=solo  worker -l INFO

@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from .views import createQR,updateAttendanceRecord,updateLocation,studentLogin,printer
+from .views import createQR,updateAttendanceRecord,updateLocation,studentLogin,printer,tester
 
 urlpatterns = [
     path('',printer,name='print'),
@@ -8,4 +8,5 @@ urlpatterns = [
     path('create_qrcode/',createQR,name='create-qrcode'),
     path('update_attendance/<str:id>/',updateAttendanceRecord,name='update-attendance-record'),
     path('update_location/<int:id>/',updateLocation,name='update-location'),
+    path('tester/',tester,name='tester'),
 ]

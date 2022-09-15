@@ -1,1 +1,15 @@
-celery -A qr_backend.celery --pool=solo  worker -l INFO
+celery -A qr_backend.celery worker --pool=solo -l INFO
+celery -A qr_backend beat -l info -S django
+python manage.py dumpdata --natural-foreign --natural-primary -e contenttypes -e auth.Permission --indent 2 > dump.json
+docker build --tag qr_celery_django .
+docker run -it -p 8000:8000 qr_celery_django
+
+Part#3
+docker-compose build
+docker-compose run --rm app django-admin startproject core .
+docker-compose up
+docker exec -it django_container /bin/bash
+
+Part#4
+docker-compose run django_app sh -c "django-admin startapp newapp ."
+docker exec -it django_app sh

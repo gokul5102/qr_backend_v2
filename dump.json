@@ -1,0 +1,1928 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$320000$MRBMhDB0x0TTTXNlAS1VZs$zhbMNbz+ZP4xDzYbxfQtBw7wDEFD7Z4w4Kt5pSKWzoI=",
+    "last_login": "2022-09-06T18:58:17.921Z",
+    "is_superuser": true,
+    "username": "gokul",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-07-26T13:20:25.204Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1n4mxoovmohete03mpgscyeoemuk3k8c",
+  "fields": {
+    "session_data": ".eJxVjMEKwyAQRP_FcxE3qxh77L3fIKurNW1RiMkp9N-bQA4tzGnem9mEp3Upfu1p9hOLqwBx-e0CxVeqB-An1UeTsdVlnoI8FHnSLu-N0_t2un8HhXrZ14oHB3usG42NCcMQVFaZIlBGx86k0aHRTKjBZOQImSwZRAAXImjx-QLUGDeY:1oQtiG:VptnQRMOm_a16Vca1GFSEUn3L6WI5N0Js_w95Bj6Roc",
+    "expire_date": "2022-09-07T16:58:44.668Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4370neoszbnxj874nxkguszmrox29taw",
+  "fields": {
+    "session_data": ".eJxVjMEKwyAQRP_FcxE3qxh77L3fIKurNW1RiMkp9N-bQA4tzGnem9mEp3Upfu1p9hOLqwBx-e0CxVeqB-An1UeTsdVlnoI8FHnSLu-N0_t2un8HhXrZ14oHB3usG42NCcMQVFaZIlBGx86k0aHRTKjBZOQImSwZRAAXImjx-QLUGDeY:1oRIHF:f6TBfL3lguX3k8dSPdZ5cYVsyw_0jpCMPmA7CB4Qhn4",
+    "expire_date": "2022-09-08T19:12:29.277Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5o1opyr0xyhvlz9hy768t474uvmb1gg2",
+  "fields": {
+    "session_data": ".eJxVjMEKwyAQRP_FcxE3qxh77L3fIKurNW1RiMkp9N-bQA4tzGnem9mEp3Upfu1p9hOLqwBx-e0CxVeqB-An1UeTsdVlnoI8FHnSLu-N0_t2un8HhXrZ14oHB3usG42NCcMQVFaZIlBGx86k0aHRTKjBZOQImSwZRAAXImjx-QLUGDeY:1oVdm5:1Kcn2MTIVZ_HWAfKu7FLTPNiG_fNulJsHbCDV4XgNbA",
+    "expire_date": "2022-09-20T18:58:17.933Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d5ihqfjn9tmktibsnfop2xfw3rygj5d2",
+  "fields": {
+    "session_data": ".eJxVjMEKwyAQRP_FcxE3qxh77L3fIKurNW1RiMkp9N-bQA4tzGnem9mEp3Upfu1p9hOLqwBx-e0CxVeqB-An1UeTsdVlnoI8FHnSLu-N0_t2un8HhXrZ14oHB3usG42NCcMQVFaZIlBGx86k0aHRTKjBZOQImSwZRAAXImjx-QLUGDeY:1oGhLT:skopXtiyIMLhN6i7qFZ2-FxX5QCOWMwscs8zKlXErhQ",
+    "expire_date": "2022-08-10T13:45:03.180Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fv9fxhgq9eiyv2z7fk3gvxnsx8o35ec0",
+  "fields": {
+    "session_data": ".eJxVjMEKwyAQRP_FcxE3qxh77L3fIKurNW1RiMkp9N-bQA4tzGnem9mEp3Upfu1p9hOLqwBx-e0CxVeqB-An1UeTsdVlnoI8FHnSLu-N0_t2un8HhXrZ14oHB3usG42NCcMQVFaZIlBGx86k0aHRTKjBZOQImSwZRAAXImjx-QLUGDeY:1oJScN:yQp1xj5xHCb2VBBmeMDoVgu2TOV5Vtz3cn7ZsoF75FI",
+    "expire_date": "2022-08-18T04:37:55.064Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l8106rdk0uk7z9riayy7a8801xcib7ld",
+  "fields": {
+    "session_data": ".eJxVjMEKwyAQRP_FcxE3qxh77L3fIKurNW1RiMkp9N-bQA4tzGnem9mEp3Upfu1p9hOLqwBx-e0CxVeqB-An1UeTsdVlnoI8FHnSLu-N0_t2un8HhXrZ14oHB3usG42NCcMQVFaZIlBGx86k0aHRTKjBZOQImSwZRAAXImjx-QLUGDeY:1oQ8fd:MelB7-u3dlLHfj_0gDS_qtTUa7sTv8PdnyViPPjTJ8c",
+    "expire_date": "2022-09-05T14:44:53.346Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qd0ngvan8p10e6kywzstox5ce8t6carr",
+  "fields": {
+    "session_data": ".eJxVjMEKwyAQRP_FcxE3qxh77L3fIKurNW1RiMkp9N-bQA4tzGnem9mEp3Upfu1p9hOLqwBx-e0CxVeqB-An1UeTsdVlnoI8FHnSLu-N0_t2un8HhXrZ14oHB3usG42NCcMQVFaZIlBGx86k0aHRTKjBZOQImSwZRAAXImjx-QLUGDeY:1oRsUd:Y5p6zJOQVtNP1rkDNbciypThtosdzjygx89bLYk276k",
+    "expire_date": "2022-09-10T09:52:43.435Z"
+  }
+},
+{
+  "model": "attendance_marker.student",
+  "pk": 1,
+  "fields": {
+    "UID": 3,
+    "name": "larren",
+    "email": "larren1234@gmail.com",
+    "password": "123456",
+    "class_location_x": "0E-200",
+    "class_location_y": "0E-200"
+  }
+},
+{
+  "model": "attendance_marker.student",
+  "pk": 2,
+  "fields": {
+    "UID": 1,
+    "name": "parshav",
+    "email": "gparshav@gmail.com",
+    "password": "123456",
+    "class_location_x": "19.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "class_location_y": "72.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  }
+},
+{
+  "model": "attendance_marker.student",
+  "pk": 3,
+  "fields": {
+    "UID": 2,
+    "name": "gokul",
+    "email": "gokul.ramanan@spit.ac.in",
+    "password": "123456",
+    "class_location_x": "19.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "class_location_y": "72.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 41,
+  "fields": {
+    "student": 2,
+    "encoded_string": "366e6c2314cfdbcda807eb8436712838fb77fc2e00c324d614481d041139e887",
+    "subject": "Physics",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 42,
+  "fields": {
+    "student": 3,
+    "encoded_string": "2772697a7e65e01f06cb2a302e535bde728b5d5aae1f5a2443923564a96c3015",
+    "subject": "Physics",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 43,
+  "fields": {
+    "student": 2,
+    "encoded_string": "943eb987b7736aeba61e9a556383fce66644f743cf0f6c5c8ca263de0377f0c6",
+    "subject": "Physics",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 44,
+  "fields": {
+    "student": 2,
+    "encoded_string": "5e8b01750b0478c9bea8f76e9337c9c7c333df7da143526216253c73e30e844c",
+    "subject": "Maths",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 45,
+  "fields": {
+    "student": 2,
+    "encoded_string": "7102fee9b5df83c2718b0bf34825f1e845eefd6717c7d5077b9d7af1bf884509",
+    "subject": "Physics",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 46,
+  "fields": {
+    "student": 3,
+    "encoded_string": "c5be27ca8a341640076a8ce7e769ab12d229c4fe35279bf51c13f04f55847dc3",
+    "subject": "Physics",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 47,
+  "fields": {
+    "student": 2,
+    "encoded_string": "5d76e8d57d78a7d56bc28a7689dc900ad8646082428d578c6b030ff6095808e2",
+    "subject": "Physics",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 48,
+  "fields": {
+    "student": 3,
+    "encoded_string": "dc95a1a42595959d8982b25e3dabce0437d33d08813f776fef3db1e422afd44d",
+    "subject": "Physics",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 49,
+  "fields": {
+    "student": 2,
+    "encoded_string": "2b0b3ecd7fb04cb60229bd64bd547ccf854653c9a992b212dc79e16558586d7d",
+    "subject": "Maths",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 50,
+  "fields": {
+    "student": 3,
+    "encoded_string": "85ad8a8ad69bbdb814487b42a28642ae3c30430df527e4a9c979179b1fe56bd5",
+    "subject": "Maths",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 51,
+  "fields": {
+    "student": 2,
+    "encoded_string": "d0647dbc57af9459f95495dfe493993b1443f4c285a83f6e41a71276f8a2e8c5",
+    "subject": "Maths",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 52,
+  "fields": {
+    "student": 3,
+    "encoded_string": "df9d383e47f5d6da8a7b34cf2b4e1908e98e721ec899155851a0f9f8b0d8c5c7",
+    "subject": "Maths",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 53,
+  "fields": {
+    "student": 2,
+    "encoded_string": "d902a87f72f356a181459fc137d13085ec2743f55a6b8675f9921ae015083aaa",
+    "subject": "Maths",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.attendance",
+  "pk": 54,
+  "fields": {
+    "student": 3,
+    "encoded_string": "df3b24ecf15951e99ab7d95f6ffbb40548c115ea938951b38eb28196a21fbea8",
+    "subject": "Maths",
+    "time_of_lecture": "12:30"
+  }
+},
+{
+  "model": "attendance_marker.class_attendance",
+  "pk": 2,
+  "fields": {
+    "student": 3,
+    "Physics": 1,
+    "Chemistry": 0,
+    "Maths": 0
+  }
+},
+{
+  "model": "attendance_marker.class_attendance",
+  "pk": 3,
+  "fields": {
+    "student": 2,
+    "Physics": 2,
+    "Chemistry": 0,
+    "Maths": 0
+  }
+},
+{
+  "model": "attendance_marker.class_attendance",
+  "pk": 4,
+  "fields": {
+    "student": 1,
+    "Physics": 1,
+    "Chemistry": 0,
+    "Maths": 0
+  }
+},
+{
+  "model": "attendance_marker.class_details",
+  "pk": 1,
+  "fields": {
+    "room_no": 601,
+    "lat_1": "18.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "lat_2": "20.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "long_1": "71.80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "long_2": "73.89000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "altitude": "15.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 1,
+  "fields": {
+    "minute": "0",
+    "hour": "4",
+    "day_of_week": "*",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "timezone": "Asia/Kolkata"
+  }
+},
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 4,
+  "fields": {
+    "minute": "10",
+    "hour": "1",
+    "day_of_week": "*",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "timezone": "Asia/Kolkata"
+  }
+},
+{
+  "model": "django_celery_beat.periodictasks",
+  "pk": 1,
+  "fields": {
+    "last_update": "2022-09-06T19:39:45.533Z"
+  }
+},
+{
+  "model": "django_celery_beat.periodictask",
+  "pk": 1,
+  "fields": {
+    "name": "celery.backend_cleanup",
+    "task": "celery.backend_cleanup",
+    "interval": null,
+    "crontab": 1,
+    "solar": null,
+    "clocked": null,
+    "args": "[]",
+    "kwargs": "{}",
+    "queue": null,
+    "exchange": null,
+    "routing_key": null,
+    "headers": "{}",
+    "priority": null,
+    "expires": null,
+    "expire_seconds": 43200,
+    "one_off": false,
+    "start_time": null,
+    "enabled": true,
+    "last_run_at": null,
+    "total_run_count": 0,
+    "date_changed": "2022-09-06T19:39:45.495Z",
+    "description": ""
+  }
+},
+{
+  "model": "django_celery_beat.periodictask",
+  "pk": 4,
+  "fields": {
+    "name": "db-replication-every-day-at-1-am",
+    "task": "attendance_marker.tasks.replicate_database",
+    "interval": null,
+    "crontab": 4,
+    "solar": null,
+    "clocked": null,
+    "args": "[]",
+    "kwargs": "{}",
+    "queue": null,
+    "exchange": null,
+    "routing_key": null,
+    "headers": "{}",
+    "priority": null,
+    "expires": null,
+    "expire_seconds": null,
+    "one_off": false,
+    "start_time": null,
+    "enabled": true,
+    "last_run_at": null,
+    "total_run_count": 0,
+    "date_changed": "2022-09-06T19:39:45.535Z",
+    "description": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-07-27T17:21:52.721Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "1",
+    "object_repr": "1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-07-27T17:22:01.134Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "1",
+    "object_repr": "2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"UID\", \"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-07-27T17:22:08.039Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "1",
+    "object_repr": "3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"UID\", \"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-07-27T17:22:45.414Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "2",
+    "object_repr": "1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-07-27T17:22:51.239Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "3",
+    "object_repr": "2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-08-01T17:35:10.677Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "3",
+    "object_repr": "b3b1bafb7f3f85258f7914cc05cfd6857b55ddb7e2550f518a3cfea3f0053c2b",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-08-01T17:43:51.852Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "class_attendance"
+    ],
+    "object_id": "1",
+    "object_repr": "Class_attendance object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-08-01T17:54:34.106Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "2",
+    "object_repr": "b3b1bafb7f3f85258f7914cc05cfd6857b55ddb7e2550f518a3cfea3f0053c2b",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-08-01T17:54:34.120Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "1",
+    "object_repr": "3899ae6c3af7d46029fbd5abf82e3b4d4fa6377dcf777b6afca911a6741876ce",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-08-01T17:59:03.022Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "4",
+    "object_repr": "448b488004a41e8692bec498abd0a8e5b3f9e1bba81626b239870a2af88d7fbb",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2022-08-01T18:01:06.613Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "5",
+    "object_repr": "448b488004a41e8692bec498abd0a8e5b3f9e1bba81626b239870a2af88d7fbb",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2022-08-03T04:21:01.939Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "14",
+    "object_repr": "e15a0f2172b4c0b331b6619780a16b248b7cd40ded699027c33d0544360e98f9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2022-08-03T04:21:01.956Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "13",
+    "object_repr": "ca8317ef707b2a0b042e4ecec2f11071a7ee06d893b71758de1a8bb0ded40f39",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2022-08-03T04:21:01.967Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "12",
+    "object_repr": "dfae5ef9b2eaf10771f17ee77c0388cc355aa55627096f04b742ac3480496804",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2022-08-03T04:21:01.978Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "11",
+    "object_repr": "07fa78f4d774d4e87a74a0f5efcc552f65e3cba27034699ef1cac27964fea5af",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2022-08-03T04:21:01.989Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "10",
+    "object_repr": "06e45bdddf558c1405bfaf6935ddf2e609feafd874e4cd1fc3098f3cb3f05180",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2022-08-03T04:21:02.000Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "9",
+    "object_repr": "249b608083fb1fce2ad4614a874a96f1be88bf8c727afd1add0644995489436e",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2022-08-03T04:21:02.011Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "8",
+    "object_repr": "b3b1bafb7f3f85258f7914cc05cfd6857b55ddb7e2550f518a3cfea3f0053c2b",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2022-08-03T04:21:02.022Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "7",
+    "object_repr": "089c547259b7cab4bae3d06f58355d59f4c90008519d220f9661ffc380bd7622",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2022-08-03T04:21:02.032Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "6",
+    "object_repr": "448b488004a41e8692bec498abd0a8e5b3f9e1bba81626b239870a2af88d7fbb",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2022-08-03T04:25:44.825Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "17",
+    "object_repr": "e15a0f2172b4c0b331b6619780a16b248b7cd40ded699027c33d0544360e98f9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2022-08-03T04:25:44.839Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "16",
+    "object_repr": "ca8317ef707b2a0b042e4ecec2f11071a7ee06d893b71758de1a8bb0ded40f39",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2022-08-03T04:25:44.850Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "15",
+    "object_repr": "dfae5ef9b2eaf10771f17ee77c0388cc355aa55627096f04b742ac3480496804",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2022-08-03T05:27:44.153Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "3",
+    "object_repr": "gokul",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2022-08-03T05:28:30.877Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "1",
+    "object_repr": "larren",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2022-08-03T05:28:48.926Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "2",
+    "object_repr": "parshav",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2022-08-04T06:08:09.442Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "19",
+    "object_repr": "ca8317ef707b2a0b042e4ecec2f11071a7ee06d893b71758de1a8bb0ded40f39",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2022-08-04T06:08:09.459Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "18",
+    "object_repr": "dfae5ef9b2eaf10771f17ee77c0388cc355aa55627096f04b742ac3480496804",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2022-08-04T06:09:51.542Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "class_attendance"
+    ],
+    "object_id": "1",
+    "object_repr": "gokul",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2022-08-04T06:57:13.355Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "class_attendance"
+    ],
+    "object_id": "2",
+    "object_repr": "gokul",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2022-08-04T07:00:21.662Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "class_attendance"
+    ],
+    "object_id": "3",
+    "object_repr": "parshav",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2022-08-04T07:00:24.807Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "class_attendance"
+    ],
+    "object_id": "4",
+    "object_repr": "larren",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2022-08-09T17:38:45.268Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "2",
+    "object_repr": "parshav",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2022-08-23T10:46:20.761Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "class_details"
+    ],
+    "object_id": "1",
+    "object_repr": "601",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2022-08-23T10:47:19.375Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "3",
+    "object_repr": "gokul",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2022-08-23T10:47:23.616Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "2",
+    "object_repr": "parshav",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2022-08-23T10:47:28.743Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "1",
+    "object_repr": "larren",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2022-08-23T10:47:45.462Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "2",
+    "object_repr": "parshav",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Class location x\", \"Class location y\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2022-08-23T10:48:26.099Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "2",
+    "object_repr": "parshav",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Class location x\", \"Class location y\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2022-08-23T10:48:34.966Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "1",
+    "object_repr": "larren",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Class location x\", \"Class location y\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2022-08-23T10:48:49.123Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "3",
+    "object_repr": "gokul",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Class location x\", \"Class location y\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2022-08-23T10:50:16.163Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "3",
+    "object_repr": "gokul",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Class location x\", \"Class location y\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2022-08-23T11:21:38.535Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "39",
+    "object_repr": "4f7d49f25b18ef69cd2eb82d3337d2d9efa036b1ed1dc999f6a6372ea4fdc933",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2022-08-23T11:21:38.552Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "38",
+    "object_repr": "a30929c60e029f378c111385bc19d12838439d56d87db53b898e7f892df5feef",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2022-08-23T11:21:38.573Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "37",
+    "object_repr": "8532baa476b1378662eab647769245ef08f28378c773958eb1f56a5b06714cf7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2022-08-23T11:21:38.596Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "36",
+    "object_repr": "4f7d49f25b18ef69cd2eb82d3337d2d9efa036b1ed1dc999f6a6372ea4fdc933",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2022-08-23T11:21:38.613Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "35",
+    "object_repr": "a30929c60e029f378c111385bc19d12838439d56d87db53b898e7f892df5feef",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.193Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "34",
+    "object_repr": "40d7b35a829f2ae57d02052c8b43618c11c2c0d2bcbc725a768f6cd8fa15c136",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.209Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "33",
+    "object_repr": "40d7b35a829f2ae57d02052c8b43618c11c2c0d2bcbc725a768f6cd8fa15c136",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.220Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "32",
+    "object_repr": "40d7b35a829f2ae57d02052c8b43618c11c2c0d2bcbc725a768f6cd8fa15c136",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.232Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "31",
+    "object_repr": "40d7b35a829f2ae57d02052c8b43618c11c2c0d2bcbc725a768f6cd8fa15c136",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.243Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "30",
+    "object_repr": "40d7b35a829f2ae57d02052c8b43618c11c2c0d2bcbc725a768f6cd8fa15c136",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.256Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "29",
+    "object_repr": "40d7b35a829f2ae57d02052c8b43618c11c2c0d2bcbc725a768f6cd8fa15c136",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.267Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "28",
+    "object_repr": "93698f0309c7a4c302af94857f075e5a894e4cc08805dddc547eacf765bd36ad",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.279Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "27",
+    "object_repr": "babf98804a0d872f13037789e4863bce93e023777d3de59b665b2774ba6e8716",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.291Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "26",
+    "object_repr": "64cd8c93ec9cd343529024397583eb0a3fd75403a7fe351c45cdeb4f9d919aa0",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.303Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "25",
+    "object_repr": "95cbb28c0fbbf33e453853696c3ed092470b41ced4815f9393da44b13e7edade",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.314Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "24",
+    "object_repr": "b0daac544ac32596c93253c40d2dea7b7e60c66ac6e165aaf3b52a7322171b89",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.326Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "23",
+    "object_repr": "17731faed3806b233b316a378d01588fae0c58f0af95798ae765bd3f1620cb60",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.338Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "22",
+    "object_repr": "93a83305330a54684eda7cf194549aa868d55036fc0e800093d802422a20ea27",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.349Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "21",
+    "object_repr": "898a03d280e92452c60d0967ec919a3afaea6d19c2f03f2b698a233485d5b60d",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.360Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "20",
+    "object_repr": "092fbb289ac90de78c1363c06bd00573ca176090a33dcb8793e4b10e3da4b8bf",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.372Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "19",
+    "object_repr": "f3fe42a786b183ccb35e017042d0ee95d00ec11d5c6c2479f4b809bf6b5d082b",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.383Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "18",
+    "object_repr": "280eb22d0374f8db67fc5ca41717aec1c9916836c7de5001ed939807cad1eeff",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.395Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "17",
+    "object_repr": "edbee16b092e3618b985a66eda218b82e1b9679851dd3705496b2d6a75b35620",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.406Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "16",
+    "object_repr": "afff4ec778975a965d27f64b30b335d1387feb06f36c38a19c2f022912e34c24",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.417Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "15",
+    "object_repr": "db1c9a694653be083a8787e34c586d175115754cae7136a13cda47dd20ac2e48",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.428Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "14",
+    "object_repr": "a749c12724ccd950c9f745a5706ab01283fb170c575014292cab62d9387ee319",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.440Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "13",
+    "object_repr": "afff4ec778975a965d27f64b30b335d1387feb06f36c38a19c2f022912e34c24",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.451Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "12",
+    "object_repr": "59e16ff252ea52f9fcf5b2ff45c03daa1cfa88da64053c3edd4d269ba0df2624",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.462Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "11",
+    "object_repr": "59e16ff252ea52f9fcf5b2ff45c03daa1cfa88da64053c3edd4d269ba0df2624",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.473Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "10",
+    "object_repr": "59e16ff252ea52f9fcf5b2ff45c03daa1cfa88da64053c3edd4d269ba0df2624",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.484Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "9",
+    "object_repr": "f47c42a736d366d75124d81de9bfe0f027fa9e97232d3470a40cd63bca2853a0",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.495Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "8",
+    "object_repr": "696910d5770177254fbb4796732c637900697a1856dd59ac6882c60c13585578",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.506Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "7",
+    "object_repr": "37381575d91ac87b65f6c8aa76bdfc28f8da99d6883d959cb79b4cd246145593",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.517Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "6",
+    "object_repr": "37381575d91ac87b65f6c8aa76bdfc28f8da99d6883d959cb79b4cd246145593",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.528Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "5",
+    "object_repr": "37381575d91ac87b65f6c8aa76bdfc28f8da99d6883d959cb79b4cd246145593",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.539Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "4",
+    "object_repr": "37381575d91ac87b65f6c8aa76bdfc28f8da99d6883d959cb79b4cd246145593",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2022-08-23T11:26:57.549Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "attendance"
+    ],
+    "object_id": "1",
+    "object_repr": "43bfd34292408af30fa654b7139972d7a77261621fc2a14916cc9d51b840fb04",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2022-08-25T19:19:08.484Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "3",
+    "object_repr": "gokul",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2022-08-25T19:23:32.938Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "3",
+    "object_repr": "gokul",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Class location x\", \"Class location y\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2022-08-26T09:11:44.582Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "attendance_marker",
+      "student"
+    ],
+    "object_id": "1",
+    "object_repr": "larren",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2022-09-06T19:32:48.619Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "object_id": "2",
+    "object_repr": "db-replication-every-day-at-1am: 0 1 * * * (m/h/dM/MY/d) Asia/Kolkata",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2022-09-06T19:32:54.988Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "django_celery_beat",
+      "crontabschedule"
+    ],
+    "object_id": "2",
+    "object_repr": "0 1 * * * (m/h/dM/MY/d) Asia/Kolkata",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2022-09-06T19:39:27.187Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "object_id": "3",
+    "object_repr": "db-replication-every-day-at-1am: 7 1 * * * (m/h/dM/MY/d) Asia/Kolkata",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2022-09-06T19:39:33.508Z",
+    "user": [
+      "gokul"
+    ],
+    "content_type": [
+      "django_celery_beat",
+      "crontabschedule"
+    ],
+    "object_id": "3",
+    "object_repr": "7 1 * * * (m/h/dM/MY/d) Asia/Kolkata",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]

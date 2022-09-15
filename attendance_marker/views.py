@@ -22,6 +22,12 @@ def printer(request):
     print(request.META['SERVER_PORT'])
     return Response("Done", status=status.HTTP_200_OK)
 
+@api_view(["GET"])
+def tester(request):
+    stu=Student.objects.all()
+    ser = StudentSerializer(stu)
+    return JsonResponse(ser.data,status= status.HTTP_200_OK)
+
 #teacher genrates QR code 
 @api_view(["POST"])
 def createQR(request):

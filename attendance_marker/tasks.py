@@ -8,6 +8,7 @@ import os
 from pathlib import Path
 from email.mime.image import MIMEImage
 from django.core.mail import EmailMultiAlternatives
+import subprocess
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -41,3 +42,7 @@ def send_mail_func(self,subject,time,room_no):
     return "Done"
 
 
+@shared_task(bind=True)
+def replicate_database(self):
+    subprocess.run('python manage.py dumpdata --natural-foreign --natural-primary -e contenttypes -e auth.Permission --indent 2 > dump.json',shell=True)
+    return "Done"

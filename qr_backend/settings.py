@@ -78,10 +78,32 @@ WSGI_APPLICATION = 'qr_backend.wsgi.application'
 
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+# DATABASES = {  
+#     'default': {  
+#         'ENGINE': 'django.db.backends.mysql',  
+#         'NAME': 'qr_celery',  
+#         'USER': config('USER'),  
+#         'PASSWORD':config('PASSWORD'),  
+#         'HOST': 'database-1.c8rpfpuhxkwv.us-east-1.rds.amazonaws.com',  
+#         'PORT': '3306', 
+#     }  
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'qr_celery',
+        'USER':config('USER'),
+        'PASSWORD':config('PASSWORD'),
+        'HOST':config('DB_ENDPOINT'),
+        'PORT':'5432'
     }
 }
 

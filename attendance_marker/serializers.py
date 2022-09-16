@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from .models import Student,Attendance,Class_attendance,Class_details
+from .models import Student,Attendance,Class_attendance,Class_details,Teacher
 
 
 class StudentSerializer(ModelSerializer):
@@ -20,4 +20,9 @@ class Class_attendanceSerializer(ModelSerializer):
 class Class_detailsSerializer(ModelSerializer):
     class Meta:
         model =  Class_details
+        fields = '__all__'
+
+class TeacherSerializer(ModelSerializer):
+    class Meta:
+        model =  Teacher
         fields = '__all__'

@@ -1,0 +1,42 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <style>
+        .back {
+            background-color: 'red';
+        }
+
+        .tab {
+            display: inline-block;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="back">
+        <img src="static/4.png" height="200px">
+    </div>
+    <br>
+    Class {{class_name}}'s Attendance Record
+    <hr>
+    <p><strong>Name</strong> <strong>UID</strong> <strong>Email</strong> <strong>Physics</strong>
+        <strong>Chemistry</strong> <strong>Maths</strong>
+    </p>
+    <br>
+    {% for student in l %}
+    <p>{{student.name}} <span style="padding-right:2em;">{{student.UID}}</span> {{student.email}} {{student.Physics}}
+        {{student.Chemistry}} {{student.Maths}}</p>
+    <br>
+    {% endfor %}
+
+
+</body>
+
+</html>

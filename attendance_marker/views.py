@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.shortcuts import render,get_object_or_404
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from .models import Student,Attendance,Class_attendance,Class_details
@@ -14,6 +15,11 @@ from django.http import HttpResponse,JsonResponse
 import threading
 import time
 from .tasks import send_mail_func
+
+from django.conf import settings
+from django.template.loader import get_template
+from xhtml2pdf import pisa
+from django.contrib.staticfiles import finders
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -135,6 +141,77 @@ def studentLogin(request):
         else :
             return Response("No student found", status=status.HTTP_400_BAD_REQUEST)
     return Response("error", status=status.HTTP_400_BAD_REQUEST)
+
+
+@api_view(["POST"])
+def TeacherLogin(request):
+    print("12",request.data)
+    if request.data:
+        email = request.data.get('email')
+        password = request.data.get('password')
+        t=Teacher.objects.get(email=email,password=password)
+        if(t):
+            ser = TeacherSerializer(t)
+            return JsonResponse(ser.data,status= status.HTTP_200_OK)
+        else :
+            return Response("No teacher found", status=status.HTTP_400_BAD_REQUEST)
+    return Response("error", status=status.HTTP_400_BAD_REQUEST)
+
+
+#report for every student
+def student_render_pdf_view(request,*args,**kwargs):
+    id=kwargs.get('id')
+    student=get_object_or_404(Student,UID=id)
+    c=Class_attendance.objects.get(student=student)
+    template_path = 'attendance_marker/pdf2.html'
+    context = {'student': student,'c':c}
+    # Create a Django response object, and specify content_type as pdf
+    response = HttpResponse(content_type='application/pdf')
+    response['Content-Disposition'] = 'attachment; filename="student_report.pdf"'
+    # find the template and render it.
+    template = get_template(template_path)
+    html = template.render(context)
+
+    # create a pdf
+    pisa_status = pisa.CreatePDF(
+       html, dest=response)
+    # if error then show some funny view
+    if pisa_status.err:
+       return HttpResponse('We had some errors <pre>' + html + '</pre>')
+    return response
+
+#report for teacher
+def teacher_render_pdf_view(request,*args,**kwargs):
+    l=[]
+    Class=kwargs.get('id')
+    students=Student.objects.filter(class_name=Class).order_by('UID')
+    c=Class_attendance.objects.filter(student__class_name=Class).order_by('student__UID')
+    print(c)
+    for i in range (len(students)):
+        dict = {}
+        dict['name']=students[i].name
+        dict['email']=students[i].email
+        dict['UID']=students[i].UID
+        dict['Physics']=c[i].Physics
+        dict['Chemistry']=c[i].Chemistry
+        dict['Maths']=c[i].Maths
+        l.append(dict)
+    template_path = 'attendance_marker/pdf1.html'
+    context = {'l':l,'class_name':Class}
+    # Create a Django response object, and specify content_type as pdf
+    response = HttpResponse(content_type='application/pdf')
+    response['Content-Disposition'] = 'attachment; filename="Class_report.pdf"'
+    # find the template and render it.
+    template = get_template(template_path)
+    html = template.render(context)
+
+    # create a pdf
+    pisa_status = pisa.CreatePDF(
+       html, dest=response)
+    # if error then show some funny view
+    if pisa_status.err:
+       return HttpResponse('We had some errors <pre>' + html + '</pre>')
+    return response
 
 
 def ResetLocation(id):

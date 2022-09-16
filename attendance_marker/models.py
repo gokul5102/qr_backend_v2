@@ -3,9 +3,10 @@ from django.db import models
 # Create your models here.
 class Student(models.Model):
     UID= models.IntegerField(default=0,unique=True)
-    name=models.TextField(null=True, blank=True)
+    name=models.CharField(max_length=200,null=True,blank=True)
     email=models.EmailField(null=True)
     password=models.CharField(max_length=200,null=True,blank=True)
+    class_name=models.IntegerField(default=0)
     class_location_x=models.DecimalField(default=0.0, max_digits=500, decimal_places=200)
     class_location_y=models.DecimalField(default=0.0, max_digits=500, decimal_places=200)
 
@@ -43,4 +44,15 @@ class Class_details(models.Model):
 
      def __str__(self):
         return str(self.room_no)
+
+class Teacher(models.Model):
+    # UID= models.IntegerField(default=0,unique=True)
+    name=models.CharField(max_length=200,null=True,blank=True)
+    email=models.EmailField(null=True)
+    password=models.CharField(max_length=200,null=True,blank=True)
+    # class_location_x=models.DecimalField(default=0.0, max_digits=500, decimal_places=200)
+    # class_location_y=models.DecimalField(default=0.0, max_digits=500, decimal_places=200)
+
+    def __str__(self):
+        return self.name
 

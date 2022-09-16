@@ -1,0 +1,41 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <style>
+        .back {
+            background-color: 'red';
+        }
+
+        .tab {
+            display: inline-block;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="back">
+        <img src="static/4.png" height="200px">
+    </div>
+    <br>
+    {{student}}'s Attendance Record
+    <hr>
+    <br>
+    <p>Email Id : {{student.email | linebreaks}}</p>
+    <br>
+    <p><strong>Subject</strong> <span class="tab"></span><strong>Attendance Record</strong></p>
+    <p>Physics : <span class="tab"></span> {{c.Physics}}</p>
+    <br>
+    <p>Chemistry : <span class="tab"></span> {{c.Chemistry}}</p>
+    <br>
+    <p>Maths : <span class="tab"></span> {{c.Maths}}</p>
+    <br>
+</body>
+
+</html>

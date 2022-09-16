@@ -25,7 +25,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['https://qrcodeattendanceapp.herokuapp.com/','http://kevin_server']
+# ALLOWED_HOSTS = ['https://qrcodeattendanceapp.herokuapp.com/','http://kevin_server']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

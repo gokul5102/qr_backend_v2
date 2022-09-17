@@ -96,13 +96,26 @@ WSGI_APPLICATION = 'qr_backend.wsgi.application'
 #     }  
 # }
 
+#prod
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'qr_celery',
+#         'USER':config('USER'),
+#         'PASSWORD':config('PASSWORD'),
+#         'HOST':config('DB_ENDPOINT'),
+#         'PORT':'5432'
+#     }
+# }
+
+#local
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'qr_celery',
-        'USER':config('USER'),
-        'PASSWORD':config('PASSWORD'),
-        'HOST':config('DB_ENDPOINT'),
+        'NAME': 'DEMO_TEST',
+        'USER':'postgres',
+        'PASSWORD':'Vedu@1510',
+        'HOST':'localhost',
         'PORT':'5432'
     }
 }

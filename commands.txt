@@ -13,3 +13,25 @@ docker exec -it django_container /bin/bash
 Part#4
 docker-compose run django_app sh -c "django-admin startapp newapp ."
 docker exec -it django_app sh
+
+after db changed to production:
+sudo systemctl restart daemon-reload
+sudo systemctl restart gunicorn 
+sudo systemctl restart nginx
+
+
+[Unit]
+Description=gunicorn daemon
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User=ec2-user
+Group=www-data
+WorkingDirectory=/home/ec2-user/project/qr_backend_v2
+ExecStart=/home/ec2-user/project/venv/bin/gunicorn \
+          --access-logfile - \
+          --workers 3 \
+          --bind unix:/run/gunicorn.sock \
+          qr_backend.wsgi:application
+

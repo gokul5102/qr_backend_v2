@@ -15,23 +15,19 @@ docker-compose run django_app sh -c "django-admin startapp newapp ."
 docker exec -it django_app sh
 
 after db changed to production:
-sudo systemctl restart daemon-reload
+sudo systemctl daemon-reload
 sudo systemctl restart gunicorn 
 sudo systemctl restart nginx
 
+server {
+    listen 80;
+    server_name 18.206.91.102,ec2-18-206-91-102.compute-1.amazonaws.com;
 
-[Unit]
-Description=gunicorn daemon
-Requires=gunicorn.socket
-After=network.target
+    location = /favicon.ico { access_log off; log_not_found off; }
 
-[Service]
-User=ec2-user
-Group=www-data
-WorkingDirectory=/home/ec2-user/project/qr_backend_v2
-ExecStart=/home/ec2-user/project/venv/bin/gunicorn \
-          --access-logfile - \
-          --workers 3 \
-          --bind unix:/run/gunicorn.sock \
-          qr_backend.wsgi:application
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.sock;
+    }
+}
 

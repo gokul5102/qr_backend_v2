@@ -19,9 +19,30 @@ sudo systemctl daemon-reload
 sudo systemctl restart gunicorn 
 sudo systemctl restart nginx
 
+[Unit]
+Description=gunicorn daemon
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/project/qr_backend_v2
+ExecStart=/home/ubuntu/project/venv/bin/gunicorn \
+          --access-logfile - \
+          --workers 3 \
+          --bind unix:/run/gunicorn.sock \
+          qr_backend.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+//nginx
 server {
     listen 80;
-    server_name 18.206.91.102,ec2-18-206-91-102.compute-1.amazonaws.com;
+    server_name 54.91.106.206,ec2-54-91-106-206.compute-1.amazonaws.com;
 
     location = /favicon.ico { access_log off; log_not_found off; }
 

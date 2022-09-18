@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.shortcuts import render,get_object_or_404
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from .models import Student,Attendance,Class_attendance,Class_details
+from .models import Student,Attendance,Class_attendance,Class_details,Teacher
 from .serializers import StudentSerializer,AttendanceSerializer
 from .utils import  generate_QR,generate_key,StudentIsPresent
 from rest_framework import status

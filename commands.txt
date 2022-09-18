@@ -52,3 +52,6 @@ server {
     }
 }
 
+
+
+psql -h ec2-54-91-106-206.compute-1.amazonaws.com -p 5432 -U gokul database-1 -W
